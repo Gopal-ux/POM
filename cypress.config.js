@@ -11,6 +11,10 @@ module.exports = defineConfig({
     },
     },
 
+    "retries": {
+      "openMode" : 1
+    }
+
    
   // env : {
   //   baseUrl : "https://way2automation.com/angularjs-protractor/banking/#/login", 
