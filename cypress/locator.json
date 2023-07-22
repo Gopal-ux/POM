@@ -1,0 +1,43 @@
+ {
+
+ "homePage" :
+ {
+       "homebtn": "body > div.ng-scope > div > div.box.mainhdr > button.btn.home" ,
+       "customerLogin" : "body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(1) > button",
+       "bankLogin":"body > div.ng-scope > div > div.ng-scope > div > div.borderM.box.padT20 > div:nth-child(3) > button"
+    
+ },
+
+  "customerLoginPage" : 
+  {
+     "dropdown" : "#userSelect",
+     "harmonie" : "#userSelect",
+     "loginBtn" : "body > div.ng-scope > div > div.ng-scope > div > form > button"
+
+
+  },
+
+  "bankLogin" : 
+  {
+   "addCustomerbtn" : "body > div.ng-scope > div > div.ng-scope > div > div.center > button.btn.btn-lg.tab.btn-primary",
+   "OpenAccount":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(2)",
+   "Customer" : "body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(3)"
+
+  },
+
+  "addCustomer" :{
+   "addnameTextBox" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(1) > input",
+   "lastNameTextBox": "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(2) > input",
+   "postalCode" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > div:nth-child(3) > input",
+   "addCustomer" : "body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button",
+   "Customer":"body > div.ng-scope > div > div.ng-scope > div > div.center > button:nth-child(3)" 
+}
+
+
+
+  
+}
+
+
+
+
