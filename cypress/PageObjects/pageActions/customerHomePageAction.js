@@ -16,6 +16,7 @@ export default class customerHomePage {
       this.homePage = new homePageElements();
     }
 
+  
     navigateToUrl()
  {
     
