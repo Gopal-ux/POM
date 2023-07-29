@@ -1,5 +1,7 @@
 ///<reference types = "Cypress" />
 
+
+
 import addCustomerPageElements from '../../PageObjects/pageElements/addCustomerPageElement';
 
 const addCustomerElements = new addCustomerPageElements();
@@ -35,6 +37,39 @@ export default class addCustomerPage
         //   })
  
         }
+
+
+   clickOpenAccount(){
+    addCustomerElements.openAccountbtn().click();
+   }
     
+
+   selectUser(){
+    addCustomerElements.selectUser().select("Harry Potter");
+   }
     
+   selectCurrency(){
+    addCustomerElements.selectCurrency().select("Rupee");
+   }
+
+   proceed(){
+    addCustomerElements.clickProceed().click()
+   }
+
+   clickCustomer(){
+    addCustomerElements.customerButton().click()
+   }
+
+   search(name){
+    addCustomerElements.searchBox().type(name)
+   }
+
+   deleteCustomer(){
+    addCustomerElements.deleteCustomer().click();
+   }
+
+   deleteValidation(name){
+    cy.get("body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div")
+    .should("not.have.text",name);
+   }
 }

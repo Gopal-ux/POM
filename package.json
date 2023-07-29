@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "cypress": "^12.17.2"
+  },
+
+
+  "scripts" : {
+   
+    "open" : " npx cypress open "
+ 
   }
 }

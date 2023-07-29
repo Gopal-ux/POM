@@ -28,3 +28,9 @@ Cypress.Commands.add("EnterAmount", (amount)=>{
      
       
 })
+
+Cypress.on('window:alert',(t)=>{
+    //assertions
+    expect(t).not.contains("Account")                 //Negative Assertion
+    // expect(t).to.contains('Customer added');       // Postive assertions window alert handling
+ })

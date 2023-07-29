@@ -18,3 +18,9 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+Cypress.on('window:alert',(t)=>{
+    //assertions
+    expect(t).not.contains("Account")                 //Negative Assertion
+    // expect(t).to.contains('Customer added');       // Postive assertions window alert handling
+ })

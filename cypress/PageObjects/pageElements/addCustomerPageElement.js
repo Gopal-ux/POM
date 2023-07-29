@@ -37,7 +37,36 @@ export default class addCustomerPageElements {
    
 
   openAccountbtn(){
-    return cy.get('[ng-class="btnClass2"]').click();
+    return cy.get('[ng-class="btnClass2"]');
   }
+
+  
+  selectUser(){
+   return cy.get('#userSelect');
+  }
+
+   selectCurrency(){
+    return cy.get("#currency")
+     }
+
+     clickProceed(){
+      return cy.get('body > div.ng-scope > div > div.ng-scope > div > div.ng-scope > div > div > form > button')
+     }
+
+
+    customerButton(){
+      return cy.get('[ng-class="btnClass3"]').click();
+    }
+
+
+    searchBox(){
+      return cy.get('.form-control')
+    }
+
+    deleteCustomer(){
+      return cy.get(':nth-child(5) > button');
+    }
+
+
 
 }

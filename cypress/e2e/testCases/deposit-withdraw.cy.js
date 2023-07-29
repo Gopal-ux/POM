@@ -27,9 +27,9 @@ describe("withdraw-deposit", ()=>{
         cy.get('[ng-class="btnClass3"]').click();
 
 
-        // withdraw.withDrawAmount();
-        // withdraw.enterAmount(1000);
-        // // withdraw.clickSubmitWithdraw();
+        withdraw.withDrawAmount();
+        withdraw.enterAmount(1000);
+         withdraw.clickSubmitWithdraw();
         
         })
 
