@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-07-30T06:26:36.880Z",
+  "duration": 5727,
+  "file": "cypress\\e2e\\testCases\\handlineTable.cy.js"
+}

@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 1,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-07-30T06:26:29.561Z",
+  "duration": 6789,
+  "file": "cypress\\e2e\\testCases\\deposit-withdraw.cy.js"
+}

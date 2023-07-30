@@ -1,0 +1,10 @@
+{
+  "suites": 3,
+  "tests": 3,
+  "passes": 3,
+  "pending": 0,
+  "failures": 0,
+  "start": "2023-07-30T06:26:49.724Z",
+  "duration": 6028,
+  "file": "cypress\\e2e\\testCases\\multiple.cy.js"
+}

@@ -1,12 +1,16 @@
 {
   "dependencies": {
-    "cypress": "^12.17.2"
+    "cypress": "^12.17.2",
+    "cypress-parallel": "^0.13.0"
   },
-
-
-  "scripts" : {
-   
-    "open" : " npx cypress open "
- 
+  "scripts": {
+    "run" : "cypress run --browser chrome --headed",
+    "open": " npx cypress run --d cypress/e2e/testCases/*.cy.js --browser chrome --headed ",
+    "cy:parallel" : "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1"
   }
+
 }
+

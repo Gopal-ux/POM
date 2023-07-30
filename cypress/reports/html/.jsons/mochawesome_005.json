@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-30T05:38:59.318Z",
+    "end": "2023-07-30T05:39:01.926Z",
+    "duration": 2608,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "33fa0503-e9ef-4c23-8d4b-bc0c20029831",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\openAccountTest.cy.js",
+      "file": "cypress\\e2e\\testCases\\openAccountTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "85363e7c-5ea2-4b16-ae39-fc634660add3",
+          "title": "OpenAccoubnt",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Opening a customerAccount",
+              "fullTitle": "OpenAccoubnt Opening a customerAccount",
+              "timedOut": null,
+              "duration": 2573,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\testCases\\\\openAccountTest.cy.js\"\n}",
+              "code": "cust.navigateToUrl();\ncust.clickOnManagerLogin();\nadd.clickOpenAccount();\nadd.selectUser();\nadd.selectCurrency();\nadd.proceed();\n// cy.on('window:alert',(t)=>{\n//     //assertions\n//     expect(t).to.contains('Customer added');\n//  })\nadd.clickCustomer();\ncy.get('tbody > :nth-child(2) > :nth-child(3)').should(\"have.text\", \"E725JB\");\nadd.search(\"Harry\");\nadd.deleteCustomer(\"Harry\");\nadd.deleteValidation();",
+              "err": {},
+              "uuid": "36779aa9-7d73-468d-9109-4b22cc3a5f07",
+              "parentUUID": "85363e7c-5ea2-4b16-ae39-fc634660add3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "36779aa9-7d73-468d-9109-4b22cc3a5f07"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2573,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

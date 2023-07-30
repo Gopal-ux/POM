@@ -1,0 +1,10 @@
+{
+  "suites": 1,
+  "tests": 1,
+  "passes": 0,
+  "pending": 0,
+  "failures": 1,
+  "start": "2023-07-30T06:26:43.848Z",
+  "duration": 6663,
+  "file": "cypress\\e2e\\testCases\\Validate Home Page.cy.js"
+}

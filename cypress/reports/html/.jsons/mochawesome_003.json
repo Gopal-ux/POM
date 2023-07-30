@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-07-30T05:38:40.732Z",
+    "end": "2023-07-30T05:38:42.827Z",
+    "duration": 2095,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2fc307f5-1b27-44d3-942c-a3f02886fd58",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\depositAmount.cy.js",
+      "file": "cypress\\e2e\\testCases\\depositAmount.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "17ebb91e-7ced-4347-be90-6ec2da0ae1c4",
+          "title": "Deposit functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deposit function",
+              "fullTitle": "Deposit functionality Deposit function",
+              "timedOut": null,
+              "duration": 2056,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"cypress-mochawesome-reporter-videos-passed\",\n  \"value\": \"cypress\\\\e2e\\\\testCases\\\\depositAmount.cy.js\"\n}",
+              "code": "homePage.navigateToUrl();\nhomeElements.clickCustomerButtonLogin();\ncustomerLoginAct.selectDropDown();\ncustomerLoginAct.Login();\ndeposit.depositButtonClick();",
+              "err": {},
+              "uuid": "ec18ca17-ec21-4169-9e11-33693569a5b1",
+              "parentUUID": "17ebb91e-7ced-4347-be90-6ec2da0ae1c4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ec18ca17-ec21-4169-9e11-33693569a5b1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2056,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true,
+        "inlineAssets": true,
+        "saveAllAttempts": false,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress\\reports\\html\\.jsons"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
