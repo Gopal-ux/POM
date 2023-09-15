@@ -29,6 +29,7 @@ context('Connectors', () => {
     // https://on.cypress.io/invoke
     // call the jquery method 'show' on the 'div.container'
     cy.get('.connectors-div').invoke('show')
+   
 
     cy.get('.connectors-div').should('be.visible')
   })

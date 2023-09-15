@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2023-07-30T06:26:31.700Z",
-  "duration": 4288,
+  "start": "2023-09-15T04:59:45.242Z",
+  "duration": 3705,
   "file": "cypress\\e2e\\testCases\\depositAmount.cy.js"
 }

@@ -10,10 +10,13 @@ module.exports = defineConfig({
     overwrite: true,
     html: true,
     json: false,
+    
   },
+
   e2e: {
 
-     "baseUrl" : "https://way2automation.com/angularjs-protractor/banking/#/login",  
+   "baseUrl" : "https://way2automation.com/angularjs-protractor/banking/#/login",  
+    defaultCommandTimeout :5000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },

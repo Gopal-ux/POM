@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2023-07-30T06:26:36.880Z",
-  "duration": 5727,
+  "start": "2023-09-15T04:59:48.997Z",
+  "duration": 3670,
   "file": "cypress\\e2e\\testCases\\handlineTable.cy.js"
 }

@@ -37,8 +37,8 @@ describe("open Account", ()=>{
             //table >tbody>tr td:nth-child(3)
             // Below get command will point out to 3rd column
 
-            cy.get("table >tbody>tr td:nth-child(3)").each(($ele, index , $list)=>{
-
+            //cy.get("table >tbody>tr td:nth-child(3)").each(($ele, index , $list)=>{
+             cy.get("table").each(($ele, index , $list)=>{
               const text = $ele.text();
 
               if(text == "E55656"){
@@ -56,18 +56,11 @@ describe("open Account", ()=>{
 
 
             })
-
-
             
  
-
-
         })
 
      
-
-
-
     })
 
 

@@ -4,7 +4,7 @@
   "passes": 0,
   "pending": 0,
   "failures": 1,
-  "start": "2023-07-30T06:26:43.848Z",
-  "duration": 6663,
+  "start": "2023-09-15T04:59:52.797Z",
+  "duration": 5528,
   "file": "cypress\\e2e\\testCases\\Validate Home Page.cy.js"
 }

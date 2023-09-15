@@ -78,6 +78,14 @@ context('Files', () => {
       email: 'jane@example.com',
     })
 
+    // cy.writeFile('cypress/fixtures/example.json', {tech :'Javascript'})
+
+
+     //  cy.writeFile("path of file", {id:3, name: "FF"})
+
+
+
+
     cy.fixture('profile').should((profile) => {
       expect(profile.name).to.eq('Jane')
     })

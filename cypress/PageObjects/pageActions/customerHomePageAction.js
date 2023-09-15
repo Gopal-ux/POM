@@ -21,7 +21,9 @@ export default class customerHomePage {
  {
     
    // cy.visit(Cypress.config('baseUrl'))
-   cy.visit(Cypress.config('baseUrl'))
+   //cy.visit(Cypress.config('baseUrl'))
+   cy.visit("/")
+  //  cy.viewport("iphone-3")
 
  }
 

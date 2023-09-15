@@ -4,7 +4,7 @@
   "passes": 2,
   "pending": 0,
   "failures": 0,
-  "start": "2023-07-30T06:26:32.310Z",
-  "duration": 6282,
+  "start": "2023-09-15T04:59:42.353Z",
+  "duration": 4763,
   "file": "cypress\\e2e\\testCases\\withdrawAmount.cy.js"
 }

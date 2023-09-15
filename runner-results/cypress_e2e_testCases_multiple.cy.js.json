@@ -4,7 +4,7 @@
   "passes": 3,
   "pending": 0,
   "failures": 0,
-  "start": "2023-07-30T06:26:49.724Z",
-  "duration": 6028,
+  "start": "2023-09-15T04:59:56.707Z",
+  "duration": 7600,
   "file": "cypress\\e2e\\testCases\\multiple.cy.js"
 }

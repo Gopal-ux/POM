@@ -1,16 +1,15 @@
 {
   "dependencies": {
     "cypress": "^12.17.2",
+    "cypress-iframe": "^1.0.1",
     "cypress-parallel": "^0.13.0"
   },
   "scripts": {
-    "run" : "cypress run --browser chrome --headed",
+    "run": "cypress run --browser chrome --headed",
     "open": " npx cypress run --d cypress/e2e/testCases/*.cy.js --browser chrome --headed ",
-    "cy:parallel" : "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5"
+    "cy:parallel": "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5"
   },
   "devDependencies": {
     "cypress-mochawesome-reporter": "^3.5.1"
   }
-
 }
-
