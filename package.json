@@ -1,15 +1,21 @@
 {
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
     "cypress": "^12.17.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-iframe": "^1.0.1",
     "cypress-parallel": "^0.13.0"
   },
   "scripts": {
     "run": "cypress run --browser chrome --headed",
     "open": " npx cypress run --d cypress/e2e/testCases/*.cy.js --browser chrome --headed ",
-    "cy:parallel": "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5"
+    "cy:parallel": "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5",
+    "cy:open": "npx cypress open"
   },
   "devDependencies": {
     "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }

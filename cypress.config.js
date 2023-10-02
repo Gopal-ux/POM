@@ -1,6 +1,8 @@
 /// <reference types="Cypress" />
 
 const { defineConfig } = require("cypress");
+const preprocessor = require("@badeball/cypress-cucumber-preprocessor");
+
 
 module.exports = defineConfig({
   reporter: 'mochawesome',
@@ -12,13 +14,15 @@ module.exports = defineConfig({
     json: false,
     
   },
-
+   
   e2e: {
-
+    specPattern :  "**/*.feature",
    "baseUrl" : "https://way2automation.com/angularjs-protractor/banking/#/login",  
     defaultCommandTimeout :5000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
+     
+      
     },
     },
   
