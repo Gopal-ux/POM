@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
-    "cypress": "^12.17.2",
-    "cypress-cucumber-preprocessor": "^4.3.1",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^12.17.4",
     "cypress-iframe": "^1.0.1",
-    "cypress-parallel": "^0.13.0"
+    "cypress-parallel": "^0.13.0",
+    "esbuild": "^0.19.4"
   },
   "scripts": {
     "run": "cypress run --browser chrome --headed",
@@ -13,9 +13,14 @@
     "cy:open": "npx cypress open"
   },
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.6",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
     "cypress-mochawesome-reporter": "^3.5.1"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "stepDefinitions": "cypress/e2e/stepDef/*.js",
+    "nonGlobalStepDefinitions": true,
+    "filterSpecs": true,
+    "omitFiltered": true
   }
 }

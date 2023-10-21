@@ -1,0 +1,7 @@
+{
+    "cucumberautocomplete.steps": [
+        "cypress/e2e/stepDef/*.js",
+        "node_modules/qa-lib/src/stepDef/*.js"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
