@@ -19,5 +19,9 @@ Then("should be able to see text on Page {string}",(title) =>{
 
 
 Given("hit Tutorial Videos | Cypress Documentation link",()=>{
+    cy.visit("https://www.google.com")
+})
+
+When ("Start to type your And step here",()=>{
 
 })
