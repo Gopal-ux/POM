@@ -25,7 +25,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern : "cypress/e2e/features/*.feature",
     baseUrl : "https://way2automation.com/angularjs-protractor/banking/#/login",  
-    defaultCommandTimeout :5000,
+    defaultCommandTimeout :10000,
      },
 
     "retries": {
