@@ -8,7 +8,7 @@
     "allTestCases": "cypress run --browser chrome --headed",
     "open": " npx cypress run cypress/e2e/testCases/*.cy.js --browser chrome --headed ",
     "cy:parallel": "cypress-parallel -s run -d cypress/e2e/testCases/  -t 5",
-    "testCase" : "npm run cypress/e2e/testCases/handlineTable.cy.js"
+    "testCase" : "npx cypress run cypress/e2e/testCases/handlineTable.cy.js"
   },
   "devDependencies": {
     "cypress-mochawesome-reporter": "^3.5.1"
